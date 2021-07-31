@@ -216,9 +216,9 @@ async def start(client, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
-                ]
+                
+                    
+                
             ]
         ),
         reply_to_message_id=message.message_id
