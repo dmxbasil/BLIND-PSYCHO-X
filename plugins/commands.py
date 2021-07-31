@@ -245,12 +245,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("𝐂𝐑𝐄𝐀𝐓𝐄𝐑 😈", url="https://t.me/basildmx"),
+                    InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 𝐌𝐄 😎", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url="https://t.me/dmx_tv"),
+                    InlineKeyboardButton("𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏", url="https://t.me/dmx_chating")
                 ]
             ]
         ),
@@ -267,7 +267,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "🔰 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🔰", url="https://t.me/dmx_chating")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
