@@ -21,7 +21,7 @@
 
 [![DMX](https://img.shields.io/badge/DMX-CHATING-orange?style=for-the-badge&logo=telegram)](https://t.me/dmx_chating)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![TroJanz](https://img.shields.io/badge/TroJanzHEX-Support-red?style=flat&logo=telegram)](https://telegram.dog/TroJanzSupport)  [![TroJanz](https://img.shields.io/badge/TroJanzHEX-Website-red?style=flat&logo=CodersRank)](https://TroJanzHEX.me)  
+[![BASIL](https://img.shields.io/badge/BASIL-Support-red?style=flat&logo=telegram)](https://t.me/basildmx)  [![ABHI](https://img.shields.io/badge/ANISH-Website-red?style=flat&logo=CodersRank)](https://t.me/abhidmx)  
 ㅤㅤㅤㅤㅤㅤㅤ  
 [![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/TroJanzHEX/Unlimited-Filter-Bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TroJanzHEX/Unlimited-Filter-Bot)
 
