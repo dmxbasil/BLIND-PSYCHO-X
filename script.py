@@ -52,11 +52,11 @@ I'm an advanced filter bot created by @basildmx with many capabilities ❗️
 """
 
 
-    ABOUT_MSG = """❍❍<b>My Name >: 𝗕𝗟𝗜𝗡𝗗»𝗣𝗦𝗬𝗖𝗛𝗢 </b>
+    ABOUT_MSG = """❍❍<b>My Name > 𝗕𝗟𝗜𝗡𝗗»𝗣𝗦𝗬𝗖𝗛𝗢 </b>
 
-❍<b>👿 𝙲𝚛𝚎𝚊𝚝𝚎𝚛:</b> @basildmx    
+❍<b>👿 𝙲𝚛𝚎𝚊𝚝𝚎𝚛:</b> <a href='https://t.me/basildmx'>BASIL</a>
 
-❍<b>⌨︎ 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎:</b> <code>Python3</code>
+❍<b>⁂𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎:</b> <code>Python3</code>
 
 ❍<b>⁂ 𝙻𝚒𝚋𝚛𝚊𝚛𝚢 :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 ❍<b>⁂ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 :</b> <a href='https://t.me/basildmx'>CLICK HERE</a>
