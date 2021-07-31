@@ -1,11 +1,11 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """<b>Hy {} 😇
 
-I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
+I'm an advanced filter bot created by @basildmx with many capabilities ❗️
+വെറുതെ സമയം കളയണ്ട ഞാൻ [DMX](https://t.me/dmx_chating) വേണ്ടി മാത്രം ഉള്ള ബോട്ട് ആണ് ☺️
 
-See <i>/help</i> for commands and more details.</b>
+
 """
 
 
