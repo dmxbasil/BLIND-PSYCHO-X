@@ -218,7 +218,7 @@ async def start(client, message):
             [
                 
                [
-                    InlineKeyboardButton[🔰 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🔰](https://t.me/dmx_chating)
+                    InlineKeyboardButton("🔰 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🔰", url="https://t.me/dmx_chating")
                 ]     
                 
             ]
