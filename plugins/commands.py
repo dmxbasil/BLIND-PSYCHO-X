@@ -246,7 +246,7 @@ async def help(client, message):
             [
                 [
                     InlineKeyboardButton("𝐂𝐑𝐄𝐀𝐓𝐄𝐑 😈", url="https://t.me/basildmx"),
-                    InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 𝐌𝐄 😎", callback_data="about_data")
+                    InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 𝐌𝐄 😎", url="https://t.me/basildmx")
                 ],
                 [
                     InlineKeyboardButton("𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url="https://t.me/dmx_tv"),
