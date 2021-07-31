@@ -1,4 +1,4 @@
-# Unlimited Filter Bot
+# BLIND PSYCHO X ᵈᵐˣ
 
 
 <p align="center">
