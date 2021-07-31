@@ -1,4 +1,4 @@
-# BLIND PSYCHO X ᵈᵐˣ
+# BLIND PSYCHO X 
 
 
 <p align="center">
