@@ -59,5 +59,5 @@ I'm an advanced filter bot created by @basildmx with many capabilities ❗️
 ❍<b>⌨︎ 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎:</b> <code>Python3</code>
 
 ❍<b>⁂ 𝙻𝚒𝚋𝚛𝚊𝚛𝚢 :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
-❍<b>⁂ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 :</b> <href='https://t.me/basildmx'
+❍<b>⁂ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 :</b> <a href='https://t.me/basildmx'
 """
