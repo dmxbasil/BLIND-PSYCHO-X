@@ -1,4 +1,5 @@
 import os
+import random
 import math
 import json
 import time
@@ -19,7 +20,14 @@ from script import Script
 from plugins.helpers import humanbytes
 from database.filters_mdb import filter_stats
 from database.users_mdb import add_user, find_user, all_users
-
+IMAGES = ["https://telegra.ph/file/e59a3919057e58128b97e.jpg",
+          "https://telegra.ph/file/dc4946a3d95cab3073a60.jpg",  
+          "https://telegra.ph/file/d55470dee06d75710e1cd.jpg",
+          "https://telegra.ph/file/c23c8c8136265c2226696.jpg",
+          "https://telegra.ph/file/c3c0b5bc617f915a90862.jpg",
+          "https://telegra.ph/file/e21237377f7284bdfe213.jpg",
+          "https://telegra.ph/file/fef353b0ff23f0430bc0e.jpg",
+          "https://telegra.ph/file/c1fe9b3f84cac917531d7.jpg",]
 
 @trojanz.on_message(filters.command('id') & (filters.private | filters.group))
 async def showid(client, message):
@@ -211,16 +219,15 @@ async def bot_status(client,message):
 
 @trojanz.on_message(filters.command('start') & filters.private)
 async def start(client, message):
-    await message.reply_text(
-        text=Script.START_MSG.format(message.from_user.mention),
-        disable_web_page_preview=True,
+    await message.reply_photo(
+        photo = random.choice(IMAGES),
+        caption=Script.START_MSG.format(message.from_user.mention),
+        parse_mode="HTML",
         reply_markup=InlineKeyboardMarkup(
             [
-                
-               [
-                    InlineKeyboardButton("🔰 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🔰", url="https://t.me/dmx_chating")
-                ]     
-                
+                [
+                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                ]
             ]
         ),
         reply_to_message_id=message.message_id
@@ -245,12 +252,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝐂𝐑𝐄𝐀𝐓𝐄𝐑 😈", url="https://t.me/basildmx"),
-                    InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 𝐌𝐄 😎", url="https://t.me/basildmx")
+                    InlineKeyboardButton("🥵 𝙲𝚁𝙴𝙰𝚃𝙴𝚁", url="https://t.me/basildmx2"),
+                    InlineKeyboardButton("👿 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url="https://t.me/dmx_tv"),
-                    InlineKeyboardButton("𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏", url="https://t.me/dmx_chating")
+                    InlineKeyboardButton("❕️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/joinchat/oElQ06pIs8wwYzQ1"),
+                    InlineKeyboardButton("🔰 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/dmx_chating")
                 ]
             ]
         ),
@@ -267,7 +274,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔰 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🔰", url="https://t.me/dmx_chating")
+                        "⭕️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ⭕️", url="https://t.me/dmx_chating")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
