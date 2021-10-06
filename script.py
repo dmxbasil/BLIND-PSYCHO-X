@@ -2,8 +2,8 @@ class Script(object):
 
     START_MSG = """<b>Hy {} 😇
 
-I'm an advanced filter bot created by @basildmx with many capabilities ❗️
-വെറുതെ സമയം കളയണ്ട ഞാൻ [DMX](https://t.me/dmx_chating) വേണ്ടി മാത്രം ഉള്ള ബോട്ട് ആണ് ☺️
+I'm an advanced filter bot created by @basildmx2 with many capabilities ❗️
+വെറുതെ സമയം കളയണ്ട ഞാൻ @dmx_chating വേണ്ടി മാത്രം ഉള്ള ബോട്ട് ആണ് ☺️
 
 
 """
