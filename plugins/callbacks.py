@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("➪ 𝑯𝒆𝒍𝒑", callback_data="help_data")
                 ]
             ]
         )
@@ -47,12 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🥵 𝑫𝒎𝒙", url="https://t.me/dmx_chating"),
+                    InlineKeyboardButton("🥶 𝑨𝒃𝒐𝒖𝒕 𝒎𝒆", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("👿 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url="https://t.me/joinchat/oElQ06pIs8wwYzQ1"),
+                    InlineKeyboardButton("⭕️ 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/dmx_chating_2_0")
                 ]
             ]
         )
@@ -70,11 +70,11 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "〰️ 𝑺𝒐𝒖𝒄𝒓𝒆 𝒄𝒐𝒅𝒆 〰️", url="https://t.me/dmx_chating")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("☜︎︎︎ 𝑩𝒂𝒄𝒌", callback_data="help_data"),
+                    InlineKeyboardButton("✖️ 𝑪𝒍𝒐𝒔𝒆", callback_data="close_data"),
                 ]                
             ]
         )
